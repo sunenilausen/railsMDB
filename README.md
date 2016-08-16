@@ -53,7 +53,7 @@ in bash:
 * 1-2 hours on movies scaffolding.
 * 1 hour on making api requests to omdb.
 * 1 hour on altering the create method to use the omdb response.
-* 2-3 hours figuring out how to make a new route that creates a movie using. the "createByAPI" inside the movies controller.
+* 2-3 hours failing to make a new route that creates a movie using an alternative create controller function.
 * 1 hour making an additional button so the original create method can just determine which button id was pressed instead. This is however bad practice to have tight view <=> controller.
 * 1-2 hours on some bootstrap.
 * 1 hour on about, contacts page, and a test
