@@ -2,7 +2,8 @@
 
 ## System dependencies
 * [Ruby](https://www.ruby-lang.org/en/) (Version 5 and up recommended)
-* mysql
+* [Rails](http://rubyonrails.org/)
+* [MySQL](https://www.mysql.com/)
 
 ## Configuration
 
