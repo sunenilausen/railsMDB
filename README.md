@@ -28,6 +28,8 @@ https://wiki.archlinux.org/index.php/MySQL
 
 	db:migrate 
 
+	rails s
+
 ## How to run the test suite
 
 ## Time used
