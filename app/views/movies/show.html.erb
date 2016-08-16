@@ -1,0 +1,26 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @movie.title %>
+</p>
+
+<p>
+  <strong>Genre:</strong>
+  <%= @movie.genre %>
+</p>
+
+<%= image_tag(@movie.picture, :alt => @movie.title, :width => "50px", :height => "80px") %>
+
+<p>
+  <strong>Media:</strong>
+  <%= @movie.media %>
+</p>
+
+<p>
+  <strong>Rating:</strong>
+  <%= @movie.rating %>
+</p>
+
+<%= button_to 'Edit', edit_movie_path(@movie), :class => "btn btn-default", :method => :get  %>
+<%= button_to 'Back', movies_path, :class => "btn btn-default", :method => :get  %>
