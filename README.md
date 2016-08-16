@@ -1,10 +1,8 @@
 # README
 
-## Ruby version
-ruby -v : 5
-
 ## System dependencies
-mysql
+* [Ruby](https://www.ruby-lang.org/en/) (Version 5 and up recommended)
+* mysql
 
 ## Configuration
 
@@ -57,7 +55,7 @@ in bash:
 * 1 hour making an additional button so the original create method can just determine which button id was pressed instead. This is however bad practice to have tight view <=> controller.
 * 1-2 hours on some bootstrap.
 * 1 hour on about, contacts page, and a test
-
+* 1-2 hours on file upload
 
 ## Thoughts
 Client side vs server side code functionality
