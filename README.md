@@ -39,7 +39,7 @@ in mysql:
 
 	CREATE DATABASE railsMDB_test.*
 
-	GRANT ALL PRIVILEGES ON railsMDB_development.*
+	GRANT ALL PRIVILEGES ON railsMDB_test.*
 	TO 'railsMDBadmin'@'localhost'
 	IDENTIFIED BY 'sqljust4u' 
 
