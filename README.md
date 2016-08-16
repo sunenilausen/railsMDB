@@ -15,6 +15,7 @@ Enter mysql socket in database.yml
 https://wiki.archlinux.org/index.php/MySQL
 
 in mysql:
+
 	CREATE DATABASE railsMDB_development 
 
 	USE railsMDB_development 
@@ -28,12 +29,14 @@ in mysql:
 	USE railsMDB_development 
 
 in bash:
+
 	db:migrate 
 
 	rails s
 
 ## How to run the test suite
 in mysql:
+
 	CREATE DATABASE railsMDB_test.*
 
 	GRANT ALL PRIVILEGES ON railsMDB_development.*
@@ -41,6 +44,7 @@ in mysql:
 	IDENTIFIED BY 'sqljust4u' 
 
 in bash: 
+
 	rake test
 
 ## Time used
