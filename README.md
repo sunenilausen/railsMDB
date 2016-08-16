@@ -9,7 +9,7 @@ mysql
 
 * Configuration
 
-	install bundle
+	`install bundle`
 
 	Enter mysql socket in database.yml
 
