@@ -4,7 +4,6 @@ class CreateMovies < ActiveRecord::Migration[5.0]
       t.string :title
       t.string :genre
       t.string :picture
-      t.string :media
       t.float :rating
 
       t.timestamps

@@ -31,7 +31,7 @@ class MoviesController < ApplicationController
   def create
     @movie = Movie.new(movie_params)
 
-    if params[:commit] == 'Create By Title'
+    if params[:commit] == 'Create By OMDb API'
       response = getOMDB(@movie.title)
 
       @movie.title = response["Title"]
@@ -88,6 +88,6 @@ class MoviesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def movie_params
-      params.require(:movie).permit(:title, :genre, :picture, :media, :rating, :trailer)
+      params.require(:movie).permit(:title, :genre, :picture, :rating, :trailer)
     end
 end
