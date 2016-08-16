@@ -22,5 +22,12 @@
   <%= @movie.rating %>
 </p>
 
+<p>
+  <strong>Trailer:</strong>
+  <%= link_to "Download", @movie.trailer.url %>
+</p>
+
+
+
 <%= button_to 'Edit', edit_movie_path(@movie), :class => "btn btn-default", :method => :get  %>
 <%= button_to 'Back', movies_path, :class => "btn btn-default", :method => :get  %>

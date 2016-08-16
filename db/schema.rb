@@ -10,16 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160814095129) do
+ActiveRecord::Schema.define(version: 20160816200517) do
 
   create_table "movies", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
     t.string   "title"
     t.string   "genre"
     t.string   "picture"
     t.string   "media"
-    t.float    "rating",     limit: 24
-    t.datetime "created_at",            null: false
-    t.datetime "updated_at",            null: false
+    t.float    "rating",               limit: 24
+    t.datetime "created_at",                      null: false
+    t.datetime "updated_at",                      null: false
+    t.string   "trailer_file_name"
+    t.string   "trailer_content_type"
+    t.integer  "trailer_file_size"
+    t.datetime "trailer_updated_at"
   end
 
 end
