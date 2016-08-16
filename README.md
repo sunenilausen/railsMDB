@@ -10,9 +10,9 @@ mysql
 
 	install bundle 
 
-	Enter mysql socket in database.yml
+Enter mysql socket in database.yml
 
-	https://wiki.archlinux.org/index.php/MySQL
+https://wiki.archlinux.org/index.php/MySQL
 
 	CREATE DATABASE railsMDB_development 
 
