@@ -32,9 +32,9 @@ class MoviesController < ApplicationController
     @movie = Movie.new(movie_params)
 
     if params[:commit] == 'Create By Title'
-      uri = URI('http://www.omdbapi.com/?t=' + @movie.title)
-      response = JSON.parse(Net::HTTP.get(uri))
+      response = getOMDB(@movie.title)
 
+      @movie.title = response["Title"]
       @movie.genre = response["Genre"]
       @movie.picture = response["Poster"]
       @movie.rating = response["imdbRating"]
@@ -49,6 +49,11 @@ class MoviesController < ApplicationController
         format.json { render json: @movie.errors, status: :unprocessable_entity }
       end
     end
+  end
+
+  def getOMDB(title)
+    uri = URI('http://www.omdbapi.com/?t=' + title)
+    JSON.parse(Net::HTTP.get(uri))
   end
 
   # PATCH/PUT /movies/1
