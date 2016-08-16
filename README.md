@@ -12,7 +12,7 @@
 Enter mysql socket in database.yml. You can find socket with mysql workbench.
 E.g:
 	
-	  socket: /run/mysqld/mysqld.sock
+  	socket: /run/mysqld/mysqld.sock
 
 in mysql:
 
