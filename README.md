@@ -60,4 +60,5 @@ in bash:
 * 1-2 hours on file upload
 
 ## Future Work
-Alternative to button check in controller for less tight coupling from view to the controller
+* Alternative to button check in controller for less tight coupling from view to the controller
+* Prettier UI
