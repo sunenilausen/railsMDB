@@ -9,9 +9,10 @@
 
 	install bundle 
 
-Enter mysql socket in database.yml
-
-https://wiki.archlinux.org/index.php/MySQL
+Enter mysql socket in database.yml. You can find socket with mysql workbench.
+E.g:
+	
+	  socket: /run/mysqld/mysqld.sock
 
 in mysql:
 
@@ -58,5 +59,5 @@ in bash:
 * 1 hour on about, contacts page, and a test
 * 1-2 hours on file upload
 
-## Thoughts
-Client side vs server side code functionality
+## Future Work
+Alternative to button check in controller for less tight coupling from view to the controller
