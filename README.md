@@ -8,25 +8,25 @@ mysql
 
 ## Configuration
 
-	`install bundle´
+	 install bundle 
 
 	Enter mysql socket in database.yml
 
 	https://wiki.archlinux.org/index.php/MySQL
 
-	`CREATE DATABASE railsMDB_development´
+	 CREATE DATABASE railsMDB_development 
 
-	`USE railsMDB_development´
+	 USE railsMDB_development 
 
-	`GRANT ALL PRIVILEGES ON railsMDB_development.*
+	 GRANT ALL PRIVILEGES ON railsMDB_development.*
 	TO 'railsMDBadmin'@'localhost'
-	IDENTIFIED BY 'sqljust4u'´
+	IDENTIFIED BY 'sqljust4u' 
 
-	`mysql -u railsMDBadmin -p´
+	 mysql -u railsMDBadmin -p 
 
-	`USE railsMDB_development´
+	 USE railsMDB_development 
 
-	`db:migrate´
+	 db:migrate 
 
 ## How to run the test suite
 
