@@ -41,6 +41,7 @@ https://wiki.archlinux.org/index.php/MySQL
 * 2-3 hours figuring out how to make a new route that creates a movie using. the "createByAPI" inside the movies controller.
 * 1 hour making an additional button so the original create method can just determine which button id was pressed instead. This is however bad practice to have tight view <=> controller.
 * 1-2 hours on some bootstrap.
+* 1 hour on about, contacts page, and a test
 
 
 ## Thoughts
